@@ -10,19 +10,19 @@ import (
 	"sort"
 )
 
-type config struct {
-	token   string
-	public  string
-	session string
-}
+// type config struct {
+// 	token   string
+// 	public  string
+// 	session string
+// }
 
-func New() config {
-	var conf config
-	conf.token = "-n-13WmyQgHl1TbN7rISCUAR7Xv6Pewy5LxhdWwOO9pIOX1OSTsNEwUONcPuJx4qqZxf1Y2eIFUSb1CZysx0"
-	conf.public = "CBMFPMLGDIHBABABA"
-	conf.session = "9876f792b60b2738f751319407a0dcca"
-	return conf
-}
+// func New() config {
+// 	var conf config
+// 	conf.token = "-n-13WmyQgHl1TbN7rISCUAR7Xv6Pewy5LxhdWwOO9pIOX1OSTsNEwUONcPuJx4qqZxf1Y2eIFUSb1CZysx0"
+// 	conf.public = "CBMFPMLGDIHBABABA"
+// 	conf.session = "9876f792b60b2738f751319407a0dcca"
+// 	return conf
+// }
 
 func arr_in_str(params map[string]string) string {
 	var stringi string
